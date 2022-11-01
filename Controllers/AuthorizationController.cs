@@ -8,7 +8,6 @@ namespace Cargo.Controllers
 
     public class AuthorizationController : ControllerBase
     {
-        // POST api/<AuthorizationController>
         [HttpPost]
         public IActionResult Post([FromBody] string value)
         {
