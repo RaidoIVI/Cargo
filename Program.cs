@@ -26,7 +26,6 @@ namespace Cargo
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
